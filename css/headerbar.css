@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  height: 123px;
+}
+
+.navbar-brand img {
+  width: 208px;
+  cursor: pointer;
+
+} 
+.navbar-collapse {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-collapse ul {
+  display: none;
+}
+.nav-item .active {
+  background-color: var(--primary);
+}
+
+.nav-item:hover>a{
+  background-color: var(--primary);
+}
+
+.menu button {
+  border: none;
+  background-color: var(--dark-grey);
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav-item {
+  display: block;
+}
+
+.nav-item a {
+  color: var(--white);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+.menu img {
+  width: 76px;
+}
+
+.dropdown-content a {
+  display: none;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--dark-grey);
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.menu:hover .dropdown-content a {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--primary);
+}
+
+.dropdown-content {
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+}
+
+/* экрвн 2 */
+@media (min-width:576px) and (max-width: 719px){
+  .navbar {
+    padding:0 40px 0;
+  }
+
+  .navbar-brand img {
+    width: 236px
+  }
+
+  .navbar-collapse ul {
+    display: none;
+  }
+
+  .menu img {
+    width: 76px;
+  }
+}
+
+/* экран 3 */
+@media (min-width:720px) and (max-width: 959px) {
+  .navbar {
+  padding: 0 12px 0;
+  }
+
+  .navbar-brand img {
+    width: 200px
+  }
+  
+  .navbar-collapse ul {
+  display: flex;
+  padding: 0;
+  }
+  .nav-item a {
+    font-size: 10px;
+    padding: 54px 8px;
+  } 
+
+  .menu img {
+    width: 56px;
+  }
+}
+
+/* экран 4 */
+@media (min-width:960px) and (max-width:1199px) {
+  .navbar {
+    padding: 0 30px 0;
+  }
+
+  .navbar-brand img {
+    width: 232px
+  }
+
+  .navbar-collapse ul {
+  display: flex;
+  }
+
+  .nav-item a {
+    font-size: 12px;
+    padding: 52px 12px;
+  } 
+
+  .menu img {
+    width: 74px;
+  }
+}
+
+/* экран 5 */
+@media (min-width:1200px) {
+  .navbar {
+      padding: 0 50px 0;
+    }
+
+  .navbar-brand img {
+    width: 245px
+  }
+  
+  .navbar-collapse ul {
+      display: flex;
+    }
+
+  .nav-item a {
+    font-size: 15px;
+    padding: 50px 17px;
+  } 
+
+  .menu img {
+    width: 84px;
+  }
+}
