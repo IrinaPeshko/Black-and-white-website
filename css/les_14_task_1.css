@@ -10,7 +10,7 @@
   --ratingColor: #3F3F3F;
   --dark-grey: #959595;
   font-family: 'Poppins', sans-serif;
-  background-color: var(--dark-grey);
+  box-sizing: border-box;
 }
 
 

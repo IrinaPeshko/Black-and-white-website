@@ -1,6 +1,10 @@
 body {
   margin: 0;
 }
+
+header {
+  background-color: var(--dark-grey);
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -8,6 +12,7 @@ body {
   padding: 0 10px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   height: 123px;
+  
 }
 
 .navbar-brand img {
@@ -76,6 +81,8 @@ body {
     z-index: 1;
     right: 15px;
 }
+
+
 
 /* экрвн 2 */
 @media (min-width:576px) and (max-width: 719px){
