@@ -184,7 +184,7 @@ background-color: #C4C4C4;
   grid-template-columns: 0.5fr repeat(3,1fr) 1fr;
   column-gap:30px;
   overflow-x: hidden;
-  margin-bottom: 100px;
+  margin-bottom: 321px;
   justify-content: center;
 }
 .carusel-element {

@@ -1,0 +1,151 @@
+footer {
+  position: relative;
+}
+
+.logo-block {
+  /* margin: 0 164px; */
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+  bottom: 770px;
+  left: 195px;
+}
+
+.partner-logo {
+  margin: 30px 114px;
+}
+
+.partner-logo img {
+  margin-right: 30px;
+}
+.partner-logo img:last-child {
+  margin-right: 0px;
+}
+
+.call-to-action {
+  padding: 103px 114px 30px;
+  background-color: var(--primary);
+  margin: 0 50px;
+  position: absolute;
+  bottom:450px;
+  /* top: 72px; */
+}
+
+.call-to-action p {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 90px;
+  color:white;
+  margin: 0;
+}
+
+.call-to-action button {
+  background-color: var(--secondary);
+  font-weight: 600;
+  font-size: 15px;
+  color:white;
+  padding: 25px 37px;
+}
+
+.footer-menu{
+  padding: 326px 50px 60px;
+  background-color: var(--secondary);
+}
+
+.footer-menu-block {
+  display: flex;
+}
+
+.footer-menu-block h4 {
+  font-size: 25px;
+  font-weight: 900;
+  color:white;
+  line-height: 37.5px;
+  margin-bottom: 15px;
+}
+
+.footer-menu-block p {
+  font-size: 17px;
+  font-weight: 400;
+  color: white;
+  line-height: 25.5px;
+  margin: 0;
+}
+
+.footer-menu-block div:first-child {
+  width:427px;
+  margin-right: 258px;
+}
+
+.footer-menu-block div:first-child p{
+  margin-bottom: 30px;
+}
+
+.footer-menu-block .social-icon img {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.footer-menu-block .navigation 
+{
+  margin: 0;
+  margin-bottom: 15px;
+  margin-right: 170px;
+}
+.footer-menu-block .navigation ul {
+  list-style-type: none;
+  color: white;
+  padding: 10px;
+  list-style-image: url(../img/simbol-.svg);
+}
+
+.footer-menu-block .navigation ul li {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.footer-menu-block .contacts h4 {
+margin-bottom: 31px;
+}
+
+.footer-menu-block .contacts p {
+  margin-bottom: 15px;
+}
+
+.footer-menu-block .contacts .message {
+  margin-bottom: 23px;
+}
+.footer-menu-block .contacts .location::before {
+  content:url(../img/location.svg);
+  padding-right: 15px;
+}
+
+.footer-menu-block .contacts .message::before {
+  content:url(../img/nessage.svg);
+  padding-right: 15px;
+}
+
+.footer-menu-block .contacts input {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-bottom: 5px solid var(--primary);
+  width: 312px;
+  height: 73px;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.footer-menu-block .contacts input::-webkit-input-placeholder {
+  color: white;
+  padding-left: 15px;
+}
+
+.footer-menu-block .contacts button {
+  width: 198px;
+  height: 73px;
+  background-color:var(--primary);
+  color:white;
+  font-size: 15px;
+  cursor:pointer;
+}
